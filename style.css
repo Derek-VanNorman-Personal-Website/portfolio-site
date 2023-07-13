@@ -56,6 +56,8 @@ body {
 
 .holy-grail-sidebar-1 {
   order: -1;
+  display: flex;
+  
 }
 
 .holy-grail-sidebar-2 {
