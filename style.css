@@ -1,0 +1,116 @@
+/* styling for portfolio */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links a {
+  text-decoration: none;
+  padding-left: 7px;
+}
+
+.holy-grail header,
+.holy-grail footer,
+.hg-sidebar,
+.holy-grail-content {
+  padding: 20px;
+}
+
+.holy-grail header,
+.holy-grail footer {
+  background-color: #ccd5ae;
+}
+
+.hg-sidebar {
+  background-color: #588157;
+}
+
+/* Flexbox */
+
+.holy-grail {
+  min-height: 100vh;
+}
+
+.holy-grail,
+.holy-grail-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.holy-grail-content {
+  flex: 1 1 auto;
+}
+
+.holy-grail-sidebar-1 {
+  order: -1;
+  display: flex;
+  
+}
+
+.holy-grail-sidebar-2 {
+}
+/* media quiry */
+
+@media (min-width: 768px) {
+  .holy-grail-body {
+    flex-direction: row;
+  }
+
+  .hg-sidebar {
+    flex: 0 0 260px;
+  }
+}
+
+/* Styling for index.html */
+
+.name {
+  text-align: center;
+  color: black;
+  font: 150;
+  border: 5px solid black;
+}
+.home {
+  font-size: 35px;
+}
+.home-content {
+  font-size: 35px;
+  padding-top: 25px;
+}
+
+.what-I-am {
+  color: brown;
+}
+
+img {
+  width: 400px;
+  padding: 15px;
+}
+
+/* Styling for about.html */
+
+.about {
+  font-size: 45px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.about-body {
+  background-color: #ccd5ae;
+}
+
+img {
+  padding: 10px;
+  size-adjust: auto;
+}
