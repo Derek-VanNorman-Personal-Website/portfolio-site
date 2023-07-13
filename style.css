@@ -54,8 +54,10 @@ body {
   flex: 1 1 auto;
 }
 
-.holy-grail-sidebar-1 {
+.holy-grail-sidebar-1  {
   order: -1;
+  display: flex;
+  flex-direction: 
 }
 
 .holy-grail-sidebar-2 {
