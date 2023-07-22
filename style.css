@@ -41,15 +41,12 @@
 .holy-grail-sidebar-1 {
   order: -1;
   display: flex;
-  
 }
 
-.holy-grail-sidebar-2 {
-}
 /* media quiry */
 
 @media (min-width: 768px) {
-  .holy-grail-body {
+  .home-page {
     flex-direction: column;
   }
 
