@@ -2,56 +2,40 @@
 
 * {
   box-sizing: border-box;
-}
-
-html,
-body {
-  font-size: 1.1em;
-  text-align: center;
+  background-color: black;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
+  color: white;
 }
 
 .links a {
+  font-size: xx-large;
   text-decoration: none;
   padding-left: 7px;
+  color: lightblue;
 }
 
-.holy-grail header,
-.holy-grail footer,
-.hg-sidebar,
-.holy-grail-content {
-  padding: 20px;
-}
-
-.holy-grail header,
-.holy-grail footer {
-  background-color: #ccd5ae;
-}
-
-.hg-sidebar {
-  background-color: #588157;
-}
-
-/* Flexbox */
-
-.holy-grail {
-  min-height: 100vh;
-}
-
-.holy-grail,
-.holy-grail-body {
+.content {
   display: flex;
+  min-height: 100vh;
   flex: 1 1 auto;
   flex-direction: column;
 }
+.home-page {
+  display: flex;
+  flex-direction: row;
+}
 
-.holy-grail-content {
-  flex: 1 1 auto;
+.home-content {
+  min-width: 50vw;
+  min-height: 50vh;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .holy-grail-sidebar-1 {
@@ -66,7 +50,7 @@ body {
 
 @media (min-width: 768px) {
   .holy-grail-body {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .hg-sidebar {
@@ -78,28 +62,42 @@ body {
 
 .name {
   text-align: center;
-  color: black;
-  font: 150;
-  border: 5px solid black;
+  color: white;
+  font-size: 50px;
+  font-family: ms gothic, Geneva, Tahoma, sans-serif
 }
+
 .home {
-  font-size: 35px;
+  font-size: 45px;
+  color: white;
+  font-family:Book Antiqua, serif
 }
+
 .home-content {
+  font-family:Book Antiqua, serif;
+  display: flex;
   font-size: 35px;
-  padding-top: 25px;
+  padding: 25px;
+  color: white;
+  justify-content: flex-start;
 }
 
-.what-I-am {
-  color: brown;
+.fam-image {
+  display: flex;
+justify-content:flex-end;
+  }
+
+.project-footer {
+  color: white;
+  font-size: x-large;
+  text-align: center;
 }
 
-img {
-  width: 400px;
-  padding: 15px;
-}
+  /* Styling for about */
 
-/* Styling for about.html */
+  .what-I-am {
+    color: brown;
+  }
 
 .about {
   font-size: 45px;
@@ -113,4 +111,10 @@ img {
 img {
   padding: 10px;
   size-adjust: auto;
+  height: 500px;
+  width: 500px;
+}
+
+.hg-sidebar {
+  background-color: #588157;
 }
