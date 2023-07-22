@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
+
   color: white;
 }
 
@@ -61,17 +61,17 @@
   text-align: center;
   color: white;
   font-size: 50px;
-  font-family: ms gothic, Geneva, Tahoma, sans-serif
+  font-family: ms gothic, Geneva, Tahoma, sans-serif;
 }
 
 .home {
   font-size: 45px;
   color: white;
-  font-family:Book Antiqua, serif
+  font-family: Book Antiqua, serif;
 }
 
 .home-content {
-  font-family:Book Antiqua, serif;
+  font-family: Book Antiqua, serif;
   display: flex;
   font-size: 35px;
   padding: 25px;
@@ -81,8 +81,8 @@
 
 .fam-image {
   display: flex;
-justify-content:flex-end;
-  }
+  justify-content: flex-end;
+}
 
 .project-footer {
   color: white;
@@ -90,26 +90,75 @@ justify-content:flex-end;
   text-align: center;
 }
 
-  /* Styling for about */
+/* Styling for about */
 
-  .what-I-am {
-    color: brown;
-  }
+.what-I-am {
+  color: brown;
+}
 
 .about {
   font-size: 45px;
   padding-top: 20px;
   padding-left: 20px;
 }
+
+.myabout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .about-body {
-  background-color: #ccd5ae;
+  color: white;
+  max-width: 50%;
+}
+.big-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.building-container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.build-body {
+  padding: 15px;
+  max-width: 35%;
+  font-size: x-large;
+}
+
+.biking-container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.biking-body {
+  padding: 15px;
+  max-width: 35%;
+  font-size: x-large;
+}
+
+.hunting-container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.hunting-body {
+  padding: 15px;
+  max-width: 35%;
+  font-size: x-large;
 }
 
 img {
   padding: 10px;
   size-adjust: auto;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
 }
 
 .hg-sidebar {
