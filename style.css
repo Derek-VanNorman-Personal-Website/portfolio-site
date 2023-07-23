@@ -161,6 +161,34 @@ img {
   width: 400px;
 }
 
+/* Stling for Portfolio page */
+
+.holy-grail {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
 .hg-sidebar {
+  background-color: black;
+  font-size: x-large;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
   background-color: #588157;
+}
+
+.holy-grail-body {
+  display: flex;
+  color: white;
+}
+
+.holy-grail-content {
+  font-size: xx-large;
+}
+
+h2 {
+  text-decoration: underline;
 }
