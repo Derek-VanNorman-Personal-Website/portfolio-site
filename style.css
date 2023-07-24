@@ -171,6 +171,40 @@ img {
   flex-direction: column;
 }
 
+/* Styling for Contact page */
+.Contact
+{
+  font-size: xx-large;
+}
+.form {
+  font-size: larger;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.comment {
+  color: black;
+  background-color: grey;
+  font-size: large;
+}
+
+input {
+  color: white;
+  justify-content: center;
+}
+.submit {
+  padding: 25px;;
+}
+
+.submits {
+  background-color: red;
+  font-size: x-large;
+}
+
+/* Styling for submission page */
+=======
 .hg-sidebar {
   background-color: black;
   font-size: x-large;
