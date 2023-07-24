@@ -84,6 +84,13 @@
   justify-content: center;
 }
 
+img {
+  padding: 10px;
+  size-adjust: auto;
+  height: 450px;
+  width: 450px;
+}
+
 .project-footer {
   color: white;
   font-size: x-large;
@@ -154,12 +161,7 @@
   font-size: x-large;
 }
 
-img {
-  padding: 10px;
-  size-adjust: auto;
-  height: 400px;
-  width: 400px;
-}
+
 
 /* Stling for Portfolio page */
 
