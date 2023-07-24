@@ -211,10 +211,11 @@ input {
 
 /* Styling for submission page */
 
+
 .form {
   justify-content: center;
   align-items: center;
-}
+
 
 h2 {
   text-decoration: underline;
