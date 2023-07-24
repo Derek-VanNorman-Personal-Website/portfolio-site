@@ -149,3 +149,7 @@ input {
 }
 
 /* Styling for submission page */
+
+.subcontainer {
+  color: white;
+}
