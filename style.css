@@ -80,8 +80,8 @@
 img {
   padding: 10px;
   size-adjust: auto;
-  height: 450px;
-  width: 450px;
+  height: auto;
+  width: 500px;
 }
 
 .project-footer {
@@ -101,16 +101,18 @@ img {
 .myabout {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  box-sizing: border-box;
 }
 
 .about-body {
+  justify-content: center;
   color: white;
   max-width: 50%;
 }
 .big-container {
+  box-sizing: border-box;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -118,6 +120,9 @@ img {
   color: white;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .build-body {
@@ -126,10 +131,14 @@ img {
   font-size: x-large;
 }
 
+
 .biking-container {
   color: white;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .biking-body {
@@ -139,9 +148,13 @@ img {
 }
 
 .hunting-container {
+  
   color: white;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .hunting-body {
@@ -215,6 +228,7 @@ input {
 .form {
   justify-content: center;
   align-items: center;
+}
 
 
 h2 {
