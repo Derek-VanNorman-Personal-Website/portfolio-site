@@ -1,5 +1,3 @@
-/* styling for portfolio */
-
 * {
   box-sizing: border-box;
   background-color: black;
@@ -18,29 +16,6 @@
   text-decoration: none;
   padding-left: 7px;
   color: lightblue;
-}
-
-.content {
-  display: flex;
-  min-height: 100vh;
-  flex: 1 1 auto;
-  flex-direction: column;
-}
-.home-page {
-  display: flex;
-  flex-direction: row;
-}
-
-.home-content {
-  min-width: 50vw;
-  min-height: 50vh;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.holy-grail-sidebar-1 {
-  order: -1;
-  display: flex;
 }
 
 /* media quiry */
@@ -79,9 +54,34 @@
   justify-content: flex-start;
 }
 
+.content {
+  display: flex;
+  min-height: 100vh;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.home-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-content {
+  min-width: 50vw;
+  min-height: 50vh;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .fam-image {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+img {
+  padding: 10px;
+  size-adjust: auto;
+  height: auto;
+  width: 500px;
 }
 
 .project-footer {
@@ -92,10 +92,6 @@
 
 /* Styling for about */
 
-.what-I-am {
-  color: brown;
-}
-
 .about {
   font-size: 45px;
   padding-top: 20px;
@@ -105,16 +101,18 @@
 .myabout {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  box-sizing: border-box;
 }
 
 .about-body {
+  justify-content: center;
   color: white;
   max-width: 50%;
 }
 .big-container {
+  box-sizing: border-box;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -122,6 +120,9 @@
   color: white;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .build-body {
@@ -130,10 +131,14 @@
   font-size: x-large;
 }
 
+
 .biking-container {
   color: white;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .biking-body {
@@ -143,22 +148,19 @@
 }
 
 .hunting-container {
+  
   color: white;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .hunting-body {
   padding: 15px;
   max-width: 35%;
   font-size: x-large;
-}
-
-img {
-  padding: 10px;
-  size-adjust: auto;
-  height: 400px;
-  width: 400px;
 }
 
 /* Stling for Portfolio page */
@@ -169,17 +171,10 @@ img {
   flex-direction: column;
 }
 
-.hg-sidebar {
-  background-color: black;
-  font-size: x-large;
+.holy-grail-sidebar-1 {
+  order: -1;
+  display: flex;
 }
-
-.form {
-  justify-content: center;
-  align-items: center;
-  background-color: #588157;
-}
-
 .holy-grail-body {
   display: flex;
   color: white;
@@ -188,6 +183,53 @@ img {
 .holy-grail-content {
   font-size: xx-large;
 }
+
+.hg-sidebar {
+  background-color: black;
+  font-size: x-large;
+  padding: 25px;
+}
+
+/* Styling for Contact page */
+.Contact {
+  font-size: xx-large;
+}
+
+.form {
+  font-size: larger;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.comment {
+  color: black;
+  background-color: grey;
+  font-size: large;
+}
+
+input {
+  color: white;
+  justify-content: center;
+}
+.submit {
+  padding: 25px;
+}
+
+.submits {
+  background-color: red;
+  font-size: x-large;
+}
+
+/* Styling for submission page */
+
+
+.form {
+  justify-content: center;
+  align-items: center;
+}
+
 
 h2 {
   text-decoration: underline;
