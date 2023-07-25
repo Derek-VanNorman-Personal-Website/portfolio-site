@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <h2 class="Contact">Contact</h2>
+      <div class="links">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </header>
+
+    <br />
+
+    <form class="form" action="submitpage.html">
+      <div class="fname">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" placeholder="Earnest" />
+      </div>
+      <br />
+      <div class="lname">
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" placeholder="Hemmingway" />
+      </div>
+      <br />
+      <div class="email">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="youremail@gmail.com"
+        />
+      </div>
+      <br />
+
+      <div class="comments">
+        <label for="comments/concerns">Comments&Concerns</label>
+        <br />
+        <textarea
+        class="comment"
+          id="comments/concerns"
+          name="comments/concerns"
+          rows="4"
+          cols="20"
+          placeholder="This Website is awesome."
+        ></textarea>
+      </div>
+
+      <br />
+
+      <div class="submit">
+        <input type="submit" value="Submit" class="submits">
+      </div>
+    </form>
+  </body>
+  <footer class="project-footer">&copy;Built in Cajun Country 2023</footer>
+</html>

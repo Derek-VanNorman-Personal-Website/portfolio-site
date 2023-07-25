@@ -1,70 +1,28 @@
-/* styling for portfolio */
-
 * {
   box-sizing: border-box;
-}
-
-html,
-body {
-  font-size: 1.1em;
-  text-align: center;
+  background-color: black;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  color: white;
 }
 
 .links a {
+  font-size: xx-large;
   text-decoration: none;
   padding-left: 7px;
-}
-
-.holy-grail header,
-.holy-grail footer,
-.hg-sidebar,
-.holy-grail-content {
-  padding: 20px;
-}
-
-.holy-grail header,
-.holy-grail footer {
-  background-color: #ccd5ae;
-}
-
-.hg-sidebar {
-  background-color: #588157;
-}
-
-/* Flexbox */
-
-.holy-grail {
-  min-height: 100vh;
-}
-
-.holy-grail,
-.holy-grail-body {
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-}
-
-.holy-grail-content {
-  flex: 1 1 auto;
-}
-
-.holy-grail-sidebar-1 {
-  order: -1;
-  display: flex;
-  
+  color: lightblue;
 }
 
 /* media quiry */
 
 @media (min-width: 768px) {
-  .holy-grail-body {
-    flex-direction: row;
+  .home-page {
+    flex-direction: column;
   }
 
   .hg-sidebar {
@@ -76,45 +34,203 @@ body {
 
 .name {
   text-align: center;
-  color: black;
-  font: 150;
-  border: 5px solid black;
-}
-.home {
-  font-size: 35px;
-}
-.home-content {
-  font-size: 35px;
-  padding-top: 25px;
+  color: white;
+  font-size: 50px;
+  font-family: ms gothic, Geneva, Tahoma, sans-serif;
 }
 
-.what-I-am {
-  color: brown;
+.home {
+  font-size: 45px;
+  color: white;
+  font-family: Book Antiqua, serif;
+}
+
+.home-content {
+  font-family: Book Antiqua, serif;
+  display: flex;
+  font-size: 35px;
+  padding: 25px;
+  color: white;
+  justify-content: flex-start;
+}
+
+.content {
+  display: flex;
+  min-height: 100vh;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.home-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-content {
+  min-width: 50vw;
+  min-height: 50vh;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fam-image {
+  display: flex;
+  justify-content: center;
 }
 
 img {
-  width: 400px;
-  padding: 15px;
+  padding: 10px;
+  size-adjust: auto;
+  height: auto;
+  width: 500px;
 }
 
-/* Styling for about.html */
+.project-footer {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+}
+
+/* Styling for about */
 
 .about {
   font-size: 45px;
   padding-top: 20px;
   padding-left: 20px;
 }
-.about-body {
-  background-color: #ccd5ae;
+
+.myabout {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
-img {
-  padding: 10px;
-  size-adjust: auto;
+.about-body {
+  justify-content: center;
+  color: white;
+  max-width: 50%;
 }
+.big-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.building-container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.build-body {
+  padding: 15px;
+  max-width: 35%;
+  font-size: x-large;
+}
+
+
+.biking-container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.biking-body {
+  padding: 15px;
+  max-width: 35%;
+  font-size: x-large;
+}
+
+.hunting-container {
+  
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hunting-body {
+  padding: 15px;
+  max-width: 35%;
+  font-size: x-large;
+}
+
+/* Stling for Portfolio page */
+
+.holy-grail {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.holy-grail-sidebar-1 {
+  order: -1;
+  display: flex;
+}
+.holy-grail-body {
+  display: flex;
+  color: white;
+}
+
+.holy-grail-content {
+  font-size: xx-large;
+}
+
+.hg-sidebar {
+  background-color: black;
+  font-size: x-large;
+  padding: 25px;
+}
+
+/* Styling for Contact page */
+.Contact {
+  font-size: xx-large;
+}
+
+.form {
+  font-size: larger;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.comment {
+  color: black;
+  background-color: grey;
+  font-size: large;
+}
+
+input {
+  color: white;
+  justify-content: center;
+}
+.submit {
+  padding: 25px;
+}
+
+.submits {
+  background-color: red;
+  font-size: x-large;
+}
+
+/* Styling for submission page */
+
 
 .form {
   justify-content: center;
   align-items: center;
-  background-color: #588157;
+}
+
+
+h2 {
+  text-decoration: underline;
 }
