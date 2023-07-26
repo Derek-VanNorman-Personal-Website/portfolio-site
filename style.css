@@ -107,11 +107,13 @@ img {
 .about-body {
   color: white;
   max-width: 50%;
+  padding-top: 150px;
 }
 .big-container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .building-container {
