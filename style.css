@@ -11,15 +11,18 @@
   position: fixed;
   color: white;
   background-color: black;
+  padding-right: 20px;
 }
 
- a {
+a {
   border-radius: 10px;
   background-color: black;
   transition: background-color 1s;
- }
+}
 
- a:hover{background-color: royalblue; }
+a:hover {
+  background-color: royalblue;
+}
 
 .links a {
   font-size: xx-large;
@@ -30,18 +33,19 @@
 
 /* media quiry */
 
-@media (min-width: 768px) 
- { .home-page {
+@media (min-width: 768px) {
+  .home-page {
     flex-direction: row;
   }
-  img { width: 50%;
+  img {
+    width: 50%;
     height: auto;
   }
 }
 
-  .hg-sidebar {
-    flex: 0 0 260px;
-  }
+.hg-sidebar {
+  flex: 0 0 260px;
+}
 
 /* Styling for index.html */
 
@@ -145,7 +149,6 @@ img {
   font-size: x-large;
 }
 
-
 .biking-container {
   color: white;
   display: flex;
@@ -162,7 +165,6 @@ img {
 }
 
 .hunting-container {
-  
   color: white;
   display: flex;
   flex-direction: row;
@@ -238,12 +240,10 @@ input {
 
 /* Styling for submission page */
 
-
 .form {
   justify-content: center;
   align-items: center;
 }
-
 
 h2 {
   text-decoration: underline;
