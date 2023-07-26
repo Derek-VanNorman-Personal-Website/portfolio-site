@@ -176,6 +176,7 @@ img {
   display: flex;
 }
 .holy-grail-body {
+  padding-top: 50px;
   display: flex;
   color: white;
 }
