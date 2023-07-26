@@ -5,11 +5,21 @@
 
 .nav {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
-
+  position: fixed;
   color: white;
+  background-color: black;
 }
+
+ a {
+  border-radius: 10px;
+  background-color: black;
+  transition: background-color 1s;
+ }
+
+ a:hover{background-color: royalblue; }
 
 .links a {
   font-size: xx-large;
@@ -20,15 +30,18 @@
 
 /* media quiry */
 
-@media (min-width: 768px) {
-  .home-page {
-    flex-direction: column;
+@media (min-width: 768px) 
+ { .home-page {
+    flex-direction: row;
   }
+  img { width: 50%;
+    height: auto;
+  }
+}
 
   .hg-sidebar {
     flex: 0 0 260px;
   }
-}
 
 /* Styling for index.html */
 
@@ -40,6 +53,7 @@
 }
 
 .home {
+  padding-top: 150px;
   font-size: 45px;
   color: white;
   font-family: Book Antiqua, serif;
