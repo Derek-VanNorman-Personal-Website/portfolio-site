@@ -122,12 +122,14 @@ img {
   justify-content: center;
   color: white;
   max-width: 50%;
+  padding-top: 150px;
 }
 .big-container {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .building-container {
